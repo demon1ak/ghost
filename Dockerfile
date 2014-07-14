@@ -5,8 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/nodejs
-
+FROM thenativeweb/rpi-nodejs
 # Install Ghost
 RUN \
   cd /tmp && \
